@@ -10,6 +10,8 @@ body {
 .upper {
     height: 450px;
     background: #1f2937;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .header {
@@ -23,13 +25,11 @@ body {
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    margin-left: 200px;
 }
 
 .links {
     display: flex;
     gap: 100px;
-    margin-right: 200px;
 }
 a {
     text-decoration: none;
@@ -48,15 +48,10 @@ ul {
     height: 250px;
 }
 
-.hero {
-    margin-left: 200px;
-}
-
 .hero .head {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    width: 400px;
 }
 
 .hero .content {
@@ -79,7 +74,6 @@ ul {
 }
 
 .upper img {
-    margin-right: 200px;
     width: 450px;
     height: 250px;
 }
