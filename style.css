@@ -4,10 +4,11 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    gap: 40px;
 }
 
 .upper {
-    height: 400px;
+    height: 450px;
     background: #1f2937;
 }
 
@@ -16,7 +17,7 @@ body {
   align-items: center;
   justify-content: space-between;
   font-weight: bold;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .logo {
@@ -42,21 +43,23 @@ ul {
 
 .hero-image {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
 }
 
 .hero {
     margin-left: 200px;
 }
 
-.hero-head {
+.hero .head {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
     width: 400px;
 }
 
-.hero-content {
+.hero .content {
     font-size: 18px;
     color: #e5e7eb;
     width: 430px;
@@ -75,9 +78,103 @@ ul {
     border-radius: 8px;
 }
 
-img {
+.upper img {
     margin-right: 200px;
-    margin-bottom: 0;
-    width: 300px;
+    width: 450px;
+    height: 250px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.info-head {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 40px;
+}
+
+.info-image {
+    width: 200px;
     height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.info-text {
+    max-width: 200px;
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border: solid #3882f6;
+    border-radius: 12px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: inline;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#quote-sign {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    padding-left: 800px;
+}
+
+.bottom-sign-up {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #e5e7eb;
+    margin-top: 40px;
+    width: 800px;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.bottom-sign-up .head {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.bottom-sign-up .sign-up {
+    display: inline;
+    border: solid white 2px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
